@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\ПРОЕКТЫ (ЯП)\Реальные проекты\CourtExpert\obj\Debug\
+D:\Projekt\CourtExpert\CourtExpert\obj\Debug\
 CourtExpert
 none
 false
 DEBUG;TRACE
-D:\ПРОЕКТЫ (ЯП)\Реальные проекты\CourtExpert\Config\App.xaml
-2-1268877801
+D:\Projekt\CourtExpert\CourtExpert\Config\App.xaml
+4269102884
 
-7348783351
-13-1505183044
-LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;
+886183552
+17956782100
+UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
 
 True
 

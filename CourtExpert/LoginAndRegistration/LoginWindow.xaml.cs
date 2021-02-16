@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CourtExpert.UsersWindow;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,22 @@ namespace CourtExpert
         public LoginWindow()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            EmployeeWindow form2 = new EmployeeWindow();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Registration form2 = new Registration();
+            this.Hide();
+            form2.ShowDialog();
+            this.Show();
         }
     }
 }

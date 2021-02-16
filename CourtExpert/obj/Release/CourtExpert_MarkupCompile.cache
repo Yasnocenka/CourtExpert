@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Projekt\CourtExpert\CourtExpert\obj\Debug\
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\
 CourtExpert
 none
 false
-DEBUG;TRACE
+TRACE
 D:\Projekt\CourtExpert\CourtExpert\Config\App.xaml
 4269102884
 
-9-756175815
-13-1505183044
+886183552
+17956782100
 UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
 
 False

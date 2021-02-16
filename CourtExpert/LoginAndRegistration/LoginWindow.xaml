@@ -7,11 +7,12 @@
         mc:Ignorable="d"
         Title="Авторизация" Height="450" Width="450" FontFamily="Times New Roman" FontSize="20">
     <Grid>
-        <Button Content="Войти" HorizontalAlignment="Left" Margin="65,334,0,0" VerticalAlignment="Top" Width="345" Height="61"/>
+        <Button x:Name="Button_Log" Content="Войти" HorizontalAlignment="Left" Margin="65,334,0,0" VerticalAlignment="Top" Width="345" Height="61" Click="Button_Click"/>
         <Label Content="Логин" HorizontalAlignment="Left" Margin="65,71,0,0" VerticalAlignment="Top"/>
         <Label Content="Пароль" HorizontalAlignment="Left" Margin="65,137,0,0" VerticalAlignment="Top"/>
         <ComboBox HorizontalAlignment="Left" Margin="162,75,0,0" VerticalAlignment="Top" Width="214"/>
-        <TextBox HorizontalAlignment="Left" Height="24" Margin="162,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214"/>
+        <Button x:Name="Button_Register" Content="Регистрация" HorizontalAlignment="Left" Margin="273,302,0,0" VerticalAlignment="Top" Width="137" Click="Button_Click_1"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="162,145,0,0" VerticalAlignment="Top" Width="214"/>
 
     </Grid>
 </Window>
