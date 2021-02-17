@@ -6,12 +6,28 @@
         xmlns:local="clr-namespace:CourtExpert.UsersWindow"
         mc:Ignorable="d"
         Title="Сотрудник" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-    </Grid>
+    <TabControl x:Name="TabControlMenu" TabStripPlacement ="Left">
+        <TabItem Header="Начальная страница">
+            <Grid Background="#FFE5E5E5">
+            </Grid>
+        </TabItem>
+        <TabItem Header="Файлы">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+        <TabItem Header="TabItem">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+        <TabItem Header="Настройки">
+            <Grid Background="#FFE5E5E5"/>
+        </TabItem>
+    </TabControl>
 </Window>

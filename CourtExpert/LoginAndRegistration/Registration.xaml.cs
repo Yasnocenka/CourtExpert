@@ -23,5 +23,10 @@ namespace CourtExpert
         {
             InitializeComponent();
         }
+
+        private void ButtonLog_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

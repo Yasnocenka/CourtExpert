@@ -5,8 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CourtExpert"
         mc:Ignorable="d"
-        Title="Регистрация" Height="450" Width="450">
+        Title="Регистрация" Height="450" Width="450" FontFamily="Times New Roman" FontSize="20">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70*" />
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="45" />
+            <RowDefinition Height="45" />
+            <RowDefinition Height="25*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="ButtonRegister" Content="Зарегистрироваться" Click="ButtonLog_Click" Margin="5" Grid.ColumnSpan="4" Grid.Row="6"/>
+
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="5" Grid.Row="1" Grid.Column="0" >Логин</Label>
+        <TextBox x:Name="TextBoxLogin" VerticalContentAlignment="Center" Margin="5" Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="3" />
+
+        <Label HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="5" Grid.Column="0" Grid.Row="2" >Пароль</Label>
+        <PasswordBox x:Name="PasswordBox" VerticalContentAlignment="Center" Margin="5" Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="3" />
     </Grid>
 </Window>

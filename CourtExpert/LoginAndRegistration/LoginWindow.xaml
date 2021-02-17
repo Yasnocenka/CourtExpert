@@ -9,11 +9,11 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70*" />
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="40*"/>
-            <RowDefinition Height="140*"/>
-            <RowDefinition Height="40*" />
-            <RowDefinition Height="40*" />
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="45"/>
+            <RowDefinition Height="100*"/>
+            <RowDefinition Height="45" />
+            <RowDefinition Height="45" />
             <RowDefinition Height="25*" />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
