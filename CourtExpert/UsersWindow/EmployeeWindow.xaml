@@ -5,29 +5,43 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CourtExpert.UsersWindow"
         mc:Ignorable="d"
-        Title="Сотрудник" Height="450" Width="800">
-    <TabControl x:Name="TabControlMenu" TabStripPlacement ="Left">
+        Title="Сотрудник" Height="450" Width="800" FontFamily="Courier new" >
+    <Window.Resources>
+        <Style TargetType="TabItem">
+            <Setter Property="Background" Value="White" />
+            <Setter Property="Foreground" Value="Black" />
+        </Style>
+        <Style TargetType="Grid">
+            <Setter Property="Background" Value="#FFE5E5E5" />
+        </Style>
+    </Window.Resources>
+    <TabControl x:Name="TabControlMenu" TabStripPlacement ="Left" >
         <TabItem Header="Начальная страница">
-            <Grid Background="#FFE5E5E5">
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="97*"/>
+                    <ColumnDefinition Width="10*"/>
+                </Grid.ColumnDefinitions>
+                <Popup Grid.ColumnSpan="2" />
             </Grid>
         </TabItem>
         <TabItem Header="Файлы">
-            <Grid Background="#FFE5E5E5"/>
+            <Grid />
         </TabItem>
         <TabItem Header="TabItem">
-            <Grid Background="#FFE5E5E5"/>
+            <Grid />
         </TabItem>
         <TabItem Header="TabItem">
-            <Grid Background="#FFE5E5E5"/>
+            <Grid />
         </TabItem>
         <TabItem Header="TabItem">
-            <Grid Background="#FFE5E5E5"/>
+            <Grid />
         </TabItem>
         <TabItem Header="TabItem">
-            <Grid Background="#FFE5E5E5"/>
+            <Grid />
         </TabItem>
         <TabItem Header="Настройки">
-            <Grid Background="#FFE5E5E5"/>
+            <Grid />
         </TabItem>
     </TabControl>
 </Window>
