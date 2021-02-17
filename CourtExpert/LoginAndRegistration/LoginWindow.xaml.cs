@@ -26,7 +26,7 @@ namespace CourtExpert
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void ButtonLog_Click(object sender, RoutedEventArgs e)
         {
             EmployeeWindow form2 = new EmployeeWindow();
             this.Hide();
@@ -34,7 +34,7 @@ namespace CourtExpert
             this.Show();
         }
 
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void ButtonRegister_Click(object sender, RoutedEventArgs e)
         {
             Registration form2 = new Registration();
             this.Hide();
