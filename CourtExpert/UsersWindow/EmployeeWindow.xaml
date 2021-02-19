@@ -26,13 +26,26 @@
             </Grid>
         </TabItem>
         <TabItem Header="Файлы">
-            <Grid />
+            <Grid >
+                <ListView>
+                    <ListViewItem/>
+                    <ListViewItem/>
+                    <ListViewItem/>
+                    <ListViewItem/>
+                </ListView>
+            </Grid>
         </TabItem>
         <TabItem Header="TabItem">
-            <Grid />
+            <Grid>
+                <WebBrowser x:Name="WebBrowser">
+                    
+                </WebBrowser>
+            </Grid>
         </TabItem>
-        <TabItem Header="TabItem">
-            <Grid />
+        <TabItem Header="Проекты">
+            <Grid >
+                <Button x:Name="ButtonClientCard" Content="Карточка клиента" Click="ButtonClientCard_Click" />
+            </Grid>
         </TabItem>
         <TabItem Header="TabItem">
             <Grid />

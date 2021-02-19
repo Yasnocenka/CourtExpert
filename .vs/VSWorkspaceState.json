@@ -2,11 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\CourtExpert",
+    "\\CourtExpert\\Config",
+    "\\CourtExpert\\FormsToFillOut",
     "\\CourtExpert\\LoginAndRegistration",
     "\\CourtExpert\\obj",
     "\\CourtExpert\\Properties",
     "\\CourtExpert\\UsersWindow"
   ],
-  "SelectedNode": "\\CourtExpert\\UsersWindow\\EmployeeWindow.xaml",
+  "SelectedNode": "\\CourtExpert\\FormsToFillOut\\ClientCardWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

@@ -1,5 +1,4 @@
-﻿using CourtExpert.FormsToFillOut;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,22 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace CourtExpert.UsersWindow
+namespace CourtExpert.FormsToFillOut
 {
     /// <summary>
-    /// Логика взаимодействия для EmployeeWindow.xaml
+    /// Логика взаимодействия для ClientCardWindow.xaml
     /// </summary>
-    public partial class EmployeeWindow : Window
+    public partial class ClientCardWindow : Window
     {
-        public EmployeeWindow()
+        public ClientCardWindow()
         {
             InitializeComponent();
-        }
-
-        private void ButtonClientCard_Click(object sender, RoutedEventArgs e)
-        {
-            ClientCardWindow form2 = new ClientCardWindow();
-            form2.Show();
         }
     }
 }
