@@ -62,6 +62,15 @@
     <Compile Include="FormsToFillOut\ClientCardWindow.xaml.cs">
       <DependentUpon>ClientCardWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FormsToFillOut\ClientPassportData.xaml.cs">
+      <DependentUpon>ClientPassportData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsToFillOut\ClientSNILSData.xaml.cs">
+      <DependentUpon>ClientSNILSData.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="FormsToFillOut\LegalEntityData.xaml.cs">
+      <DependentUpon>LegalEntityData.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UsersWindow\AdministatorWindow.xaml.cs">
       <DependentUpon>AdministatorWindow.xaml</DependentUpon>
     </Compile>
@@ -72,6 +81,18 @@
       <DependentUpon>EmployeeWindow.xaml</DependentUpon>
     </Compile>
     <Page Include="FormsToFillOut\ClientCardWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormsToFillOut\ClientPassportData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormsToFillOut\ClientSNILSData.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="FormsToFillOut\LegalEntityData.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -16,86 +16,17 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <ScrollViewer VerticalScrollBarVisibility="Visible" >
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="230" />
-                    <ColumnDefinition Width="548*" />
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                    <RowDefinition />
-                </Grid.RowDefinitions>
-                <Label Grid.Column="0" Grid.Row="0" >Паспортные данные</Label>
-                <Label Grid.Column="0" Grid.Row="1" >Паспорт выдан:</Label>
-                <Label Grid.Column="0" Grid.Row="2" >Дата выдачи:</Label>
-                <Label Grid.Column="0" Grid.Row="3" >Код подразделения:</Label>
-                <Label Grid.Column="0" Grid.Row="4" >Серия, номер паспорта:</Label>
-                <Label Grid.Column="0" Grid.Row="5" >Фамилия:</Label>
-                <Label Grid.Column="0" Grid.Row="6" >Имя:</Label>
-                <Label Grid.Column="0" Grid.Row="7" >Отчество:</Label>
-                <Label Grid.Column="0" Grid.Row="8" >Пол:</Label>
-                <Label Grid.Column="0" Grid.Row="9" >Дата рождения:</Label>
-                <Label Grid.Column="0" Grid.Row="10">Место рождения:</Label>
-                <Label Grid.Column="0" Grid.Row="11" >Место жительства</Label>
-                <Label Grid.Column="0" Grid.Row="12" >Зарегистрирован:</Label>
-                <Label Grid.Column="0" Grid.Row="13" >Регион:</Label>
-                <Label Grid.Column="0" Grid.Row="14" >Пункт:</Label>
-                <Label Grid.Column="0" Grid.Row="15" >Район:</Label>
-                <Label Grid.Column="0" Grid.Row="16" >Улица:</Label>
-                <Label Grid.Column="0" Grid.Row="17" >Дом:</Label>
-                <Label Grid.Column="0" Grid.Row="18" >Кв.:</Label>
-                <Label Grid.Column="0" Grid.Row="19" >Воинская обязанность</Label>
-                <Label Grid.Column="0" Grid.Row= "20">Семейное положение</Label>
-
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <TextBox Grid.Column="1"  Grid.Row= "20" />
-                <TextBox Grid.Column="1" Grid.Row= "20" />
-                <Grid>
-                    <ListBox x:Name="PassportDataListBox">
-                        
-                    </ListBox>
-                </Grid>
-            </Grid>
-        </ScrollViewer>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Frame x:Name="ClientCardFrame" Grid.ColumnSpan="2" Grid.RowSpan="2">
+        </Frame>
+        <Button x:Name="ButtonIndividualPerson" Grid.RowSpan="2" Content="Физическое лицо" Click="ButtonIndividualPersonClick"/>
+        <Button x:Name="ButtonLegalEntity" Grid.RowSpan="2" Grid.Column="1" Content="Юридическое лицо" Click="ButtonLegalEntityClick"/>
     </Grid>
 </Window>

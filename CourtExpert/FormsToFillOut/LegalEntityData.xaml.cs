@@ -10,29 +10,19 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CourtExpert.FormsToFillOut
 {
     /// <summary>
-    /// Логика взаимодействия для ClientCardWindow.xaml
+    /// Логика взаимодействия для LegalEntityData.xaml
     /// </summary>
-    public partial class ClientCardWindow : Window
+    public partial class LegalEntityData : Page
     {
-        public ClientCardWindow()
+        public LegalEntityData()
         {
             InitializeComponent();
-            ClientCardFrame.Navigate(new ClientPassportData());
-        }
-
-        private void ButtonLegalEntityClick(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void ButtonIndividualPersonClick(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

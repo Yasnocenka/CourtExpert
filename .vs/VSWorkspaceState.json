@@ -6,9 +6,11 @@
     "\\CourtExpert\\FormsToFillOut",
     "\\CourtExpert\\LoginAndRegistration",
     "\\CourtExpert\\obj",
+    "\\CourtExpert\\obj\\Release",
+    "\\CourtExpert\\obj\\Release\\UsersWindow",
     "\\CourtExpert\\Properties",
     "\\CourtExpert\\UsersWindow"
   ],
-  "SelectedNode": "\\CourtExpert\\FormsToFillOut\\ClientCardWindow.xaml",
+  "SelectedNode": "\\CourtExpert\\FormsToFillOut\\LegalEntityData.xaml",
   "PreviewInSolutionExplorer": false
 }

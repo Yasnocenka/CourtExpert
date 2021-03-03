@@ -21,3 +21,9 @@ D:\Projekt\CourtExpert\CourtExpert\obj\Release\CourtExpert.pdb
 D:\Projekt\CourtExpert\CourtExpert\obj\Release\CourtExpert.csprojAssemblyReference.cache
 D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\ClientCardWindow.g.cs
 D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\ClientCardWindow.baml
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\ClientPassportData.g.cs
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\ClientPassportData.baml
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\ClientSNILSData.g.cs
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\ClientSNILSData.baml
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\LegalEntityData.g.cs
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\FormsToFillOut\LegalEntityData.baml

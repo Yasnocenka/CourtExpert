@@ -10,11 +10,11 @@ none
 false
 TRACE
 D:\Projekt\CourtExpert\CourtExpert\Config\App.xaml
-5264683408
+8-1422147449
 
-9-2058041496
+12-758868788
 17956782100
-FormsToFillOut\ClientCardWindow.xaml;UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
+FormsToFillOut\ClientCardWindow.xaml;FormsToFillOut\ClientPassportData.xaml;FormsToFillOut\ClientSNILSData.xaml;FormsToFillOut\LegalEntityData.xaml;UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
 
-True
+False
 
