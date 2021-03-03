@@ -44,7 +44,7 @@
         </TabItem>
         <TabItem Header="Проекты">
             <Grid >
-                <Button x:Name="ButtonClientCard" Content="Карточка клиента" Click="ButtonClientCard_Click" />
+                <Button x:Name="ButtonClientCard" Content="Карточка клиента" Click="ButtonClientCardClick" />
             </Grid>
         </TabItem>
         <TabItem Header="TabItem">

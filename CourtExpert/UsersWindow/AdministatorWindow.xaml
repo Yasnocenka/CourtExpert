@@ -19,10 +19,14 @@
         <TabItem Header="Начальная страница">
             <Grid >
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="97*"/>
-                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="60"/>
                 </Grid.ColumnDefinitions>
-                <Popup Grid.ColumnSpan="2" />
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="60"/>
+                    <RowDefinition />
+                </Grid.RowDefinitions>
+                <Button Content= "Колокольчик" Grid.Column="1"/>
             </Grid>
         </TabItem>
         <TabItem Header="Файлы">
@@ -35,7 +39,7 @@
                 </ListView>
             </Grid>
         </TabItem>
-        <TabItem Header="TabItem">
+        <TabItem Header="Тестовый_элемент(браузер)">
             <Grid>
                 <WebBrowser x:Name="WebBrowser">
 
@@ -48,7 +52,7 @@
         <TabItem Header="TabItem">
             <Grid />
         </TabItem>
-        <TabItem Header="TabItem">
+        <TabItem Header="Работники">
             <Grid />
         </TabItem>
         <TabItem Header="Настройки">

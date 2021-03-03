@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-D:\Projekt\CourtExpert\CourtExpert\obj\Debug\
+D:\Projekt\CourtExpert\CourtExpert\obj\Release\
 CourtExpert
 none
 false
-DEBUG;TRACE
+TRACE
 D:\Projekt\CourtExpert\CourtExpert\Config\App.xaml
 8-1422147449
 
-12-758868788
+13-1836447620
 17956782100
 FormsToFillOut\ClientCardWindow.xaml;FormsToFillOut\ClientPassportData.xaml;FormsToFillOut\ClientSNILSData.xaml;FormsToFillOut\LegalEntityData.xaml;UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
 

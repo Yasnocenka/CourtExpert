@@ -25,7 +25,7 @@ namespace CourtExpert.UsersWindow
             InitializeComponent();
         }
 
-        private void ButtonClientCard_Click(object sender, RoutedEventArgs e)
+        private void ButtonClientCardClick(object sender, RoutedEventArgs e)
         {
             ClientCardWindow form2 = new ClientCardWindow();
             form2.Show();

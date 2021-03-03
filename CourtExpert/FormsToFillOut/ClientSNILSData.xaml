@@ -62,9 +62,6 @@
                 <TextBox Grid.Row= "6" />
                 <TextBox Grid.Row= "7" />
                 <TextBox Grid.Row= "8" />
-
-                <Button x:Name="ButtonNextPage" Grid.Column="3" Grid.Row= "21" Content="Продолжить" Height="20" VerticalAlignment="Bottom"/>
-                <Button x:Name="ButtonPreviousPage" Grid.Column="2" Grid.Row= "21" Content="Вернуться" Height="20" VerticalAlignment="Bottom"/>
             </Grid>
         </ScrollViewer>
     </Grid>

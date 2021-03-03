@@ -24,10 +24,5 @@ namespace CourtExpert.FormsToFillOut
         {
             InitializeComponent();
         }
-
-        private void ButtonPreviousPage_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
