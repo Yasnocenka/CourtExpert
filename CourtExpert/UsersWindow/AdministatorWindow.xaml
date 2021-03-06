@@ -26,34 +26,43 @@
                     <RowDefinition Height="60"/>
                     <RowDefinition />
                 </Grid.RowDefinitions>
-                <Button Content= "Колокольчик" Grid.Column="1"/>
+                <DockPanel Grid.Row="1">
+                    <DataGrid x:Name="DataGrid" AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Дело" Binding="{Binding id}" />
+                            <DataGridTextColumn Header="Имя" Binding="{Binding id}"/>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding id}"/>
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding id}"/>
+                            <DataGridTextColumn Header="Специальность" Binding="{Binding id}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </DockPanel>
             </Grid>
         </TabItem>
-        <TabItem Header="Файлы">
-            <Grid >
-                <ListView>
-                    <ListViewItem/>
-                    <ListViewItem/>
-                    <ListViewItem/>
-                    <ListViewItem/>
-                </ListView>
-            </Grid>
-        </TabItem>
-        <TabItem Header="Тестовый_элемент(браузер)">
-            <Grid>
-                <WebBrowser x:Name="WebBrowser">
-
-                </WebBrowser>
-            </Grid>
-        </TabItem>
-        <TabItem Header="Проекты">
-            <Grid />
-        </TabItem>
-        <TabItem Header="TabItem">
-            <Grid />
+        <TabItem Header="Дела">
+            <DockPanel>
+                <DataGrid AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Binding="{Binding id}" />
+                        <DataGridTextColumn Header="Название" Binding="{Binding id}"/>
+                        <DataGridTextColumn Header="Тип работы" Binding="{Binding id}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DockPanel>
         </TabItem>
         <TabItem Header="Работники">
-            <Grid />
+            <DockPanel>
+                <DataGrid AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="Id" Binding="{Binding id}" />
+                        <DataGridTextColumn Header="Имя" Binding="{Binding id}"/>
+                        <DataGridTextColumn Header="Фамилия" Binding="{Binding id}"/>
+                        <DataGridTextColumn Header="Отчество" Binding="{Binding id}"/>
+                        <DataGridTextColumn Header="Специальность" Binding="{Binding id}"/>
+                        <DataGridTextColumn Header="Список работ" Binding="{Binding id}"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </DockPanel>
         </TabItem>
         <TabItem Header="Настройки">
             <Grid />
