@@ -30,18 +30,15 @@
                     <DataGrid x:Name="DataGrid" AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="Дело" Binding="{Binding id}" />
-                            <DataGridTextColumn Header="Имя" Binding="{Binding id}"/>
-                            <DataGridTextColumn Header="Фамилия" Binding="{Binding id}"/>
-                            <DataGridTextColumn Header="Отчество" Binding="{Binding id}"/>
-                            <DataGridTextColumn Header="Специальность" Binding="{Binding id}"/>
+                            <DataGridTextColumn Header="Группа" Binding="{Binding id}"/>
                         </DataGrid.Columns>
                     </DataGrid>
                 </DockPanel>
             </Grid>
         </TabItem>
-        <TabItem Header="Дела">
+        <TabItem Header="Список дел">
             <DockPanel>
-                <DataGrid AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
+                <DataGrid Name="dgCourt" AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Id" Binding="{Binding id}" />
                         <DataGridTextColumn Header="Название" Binding="{Binding id}"/>
@@ -52,7 +49,7 @@
         </TabItem>
         <TabItem Header="Работники">
             <DockPanel>
-                <DataGrid AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
+                <DataGrid Name="dgEmployes" AutoGenerateColumns="False" x:FieldModifier="public" ColumnWidth="*">
                     <DataGrid.Columns>
                         <DataGridTextColumn Header="Id" Binding="{Binding id}" />
                         <DataGridTextColumn Header="Имя" Binding="{Binding id}"/>
@@ -64,8 +61,23 @@
                 </DataGrid>
             </DockPanel>
         </TabItem>
-        <TabItem Header="Настройки">
-            <Grid />
+        <TabItem Header="Создание дела">
+            <Grid >
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="150"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="1">
+                    <Label >Добавить дело</Label>
+                    <Button x:Name="ButtonIndividualPerson" Content="Физическое лицо" Click="ButtonIndividualPersonClick"/>
+                    <Button x:Name="ButtonLegalEntity" Content="Юридическое лицо" Click="ButtonLegalEntityClick"/>
+                </StackPanel>
+            </Grid>
         </TabItem>
+        <TabItem Header="Настройки"/>
     </TabControl>
 </Window>

@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:CourtExpert"
         mc:Ignorable="d"
         Title="Авторизация" Height="450" MinHeight="450" MaxHeight="450" Width="450" MinWidth="450" MaxWidth="450" FontFamily="Courier new" FontSize="20" WindowStartupLocation="CenterScreen">
-    <Grid>  
+    <Grid Loaded="WinLogin_Loaded">  
         <Grid.RowDefinitions>
             <RowDefinition Height="70*" />
             <RowDefinition Height="45"/>

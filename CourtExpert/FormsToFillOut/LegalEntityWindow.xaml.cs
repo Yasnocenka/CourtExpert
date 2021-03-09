@@ -10,19 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace CourtExpert.FormsToFillOut
 {
     /// <summary>
-    /// Логика взаимодействия для ClientSNILSData.xaml
+    /// Логика взаимодействия для LegalEntityWindow.xaml
     /// </summary>
-    public partial class ClientSNILSData : Page
+    public partial class LegalEntityWindow : Window
     {
-        public ClientSNILSData()
+        public LegalEntityWindow()
         {
             InitializeComponent();
+        }
+
+        private void CompleteButtonClick(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

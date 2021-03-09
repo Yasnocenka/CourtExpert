@@ -23,5 +23,15 @@ namespace CourtExpert
         {
             InitializeComponent();
         }
+
+        private void ButtonIndividualPersonClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ButtonLegalEntityClick(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

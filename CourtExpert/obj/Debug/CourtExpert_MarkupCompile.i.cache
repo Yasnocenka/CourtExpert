@@ -9,12 +9,12 @@ CourtExpert
 none
 false
 DEBUG;TRACE
-D:\Projekt\CourtExpert\CourtExpert\Config\App.xaml
-4269102884
+D:\Projekt\CourtExpert\CourtExpert\App.xaml
+6909954693
 
-9-756175815
-13-1505183044
-UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
+12-1078003600
+36-1386226371
+FormsToFillOut\LegalEntityWindow.xaml;FormsToFillOut\PersoneClientWindow.xaml;UsersWindow\AdministatorWindow.xaml;LoginAndRegistration\LoginWindow.xaml;LoginAndRegistration\Registration.xaml;UsersWindow\EmployeeWindow.xaml;
 
-False
+True
 
